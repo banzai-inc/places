@@ -16,7 +16,7 @@
 (defn nearby-search
   "Search places within a specified area.
   Location argument should reference a map containing two keys: lat, and lng.
-  Ex: {lng: -33.8670522 lat: 151.1957362}
+  Ex: {:lng -33.8670522 :lat 151.1957362}
   Radius is measured in meters.
   See https://developers.google.com/places/documentation/search"
   [location radius api-key & {:keys [sensor term]

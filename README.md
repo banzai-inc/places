@@ -14,7 +14,7 @@ NOTE: The `places` library is nice to use alongside the `geocoder-clj` library (
 ```clojure
 (require '[places.search :as places])
 
-(places/nearby-search {lng: -33.8670522 lat: 151.1957362}
+(places/nearby-search {:lng -33.8670522 :lat 151.1957362}
                       8046
                       "asdf1234" ;; Acquire from Google's Developer Console
                       :term "ice cream")
