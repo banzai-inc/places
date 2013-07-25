@@ -4,7 +4,7 @@ Clojure interface to the Google Places API.
 
 ## Installation
 
-Install using Leiningen and Clojars:
+Install using Leiningen and Clojars: https://clojars.org/places.
 
 
 ## Usage
