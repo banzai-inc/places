@@ -3,8 +3,8 @@
   :url "https://github.com/banzai-inc/places"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.5.1"]
+  :dependencies [[org.clojure/clojure "1.7.0"]
                  [clj-http "0.7.6"]
                  [ring/ring-codec "1.0.0"]
-                 [org.clojure/data.json "0.2.2"]]
+                 [cheshire "5.5.0"]]
   :profiles {:dev {:dependencies [[geocoder-clj "0.2.1"]]}})
