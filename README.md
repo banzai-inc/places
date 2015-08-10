@@ -27,13 +27,13 @@ NOTE: The `places` library is nice to use alongside the `geocoder-clj` library (
                :keyword "ice cream")
 ```
 
+Returns a map representing Google Place's search results.
+
 #### Place Details
 
 ```clojure
 (details "asdf1234" "my-place-id")
 ```
-
-Returns a map representing Google Place's search results.
 
 ## License
 
