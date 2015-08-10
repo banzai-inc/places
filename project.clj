@@ -1,4 +1,4 @@
-(defproject places "0.1.1"
+(defproject places "0.2.0"
   :description "Clojure interface to Google's Places API"
   :url "https://github.com/banzai-inc/places"
   :license {:name "Eclipse Public License"
